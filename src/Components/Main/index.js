@@ -37,7 +37,7 @@ const Main = () => {
                         <Icon name="internet explorer" />Voir le site
                     </Button>
                 </a>
-                <a href='https://github.com/Allyna81'>
+                <a href='https://github.com/Allyna81/Game-Testing'>
                     <Button >
                         <Icon name='github'/> Github 
                     </Button>
