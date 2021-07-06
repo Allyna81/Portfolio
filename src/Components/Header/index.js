@@ -10,7 +10,7 @@ const Header = () => {
         <div id="app">
 	        <div id="wrapper">
 		        <h1 className="glitch" data-text="Rémy FOURNIER">Rémy FOURNIER</h1>
-		        <span className="sub">Développeur web Frontend REACT/JS</span>
+		        <span className="sub">Développeur web Frontend REACT</span>
 	        </div>
         </div>
         <Menu inverted className="menu">
@@ -22,6 +22,11 @@ const Header = () => {
         <Link to={"/competences"}>
           <Menu.Item
             name='Mes compétences'
+          />
+        </Link>
+        <Link to={"/aboutme"}>
+          <Menu.Item
+            name='About me'
           />
         </Link>
         <Link to={"/contact"}>

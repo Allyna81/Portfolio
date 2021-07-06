@@ -1,3 +1,8 @@
-.ui.inverted.menu  {
+.ui.inverted.menu.menu  {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    background: #222424;
+    background-color: #222424;
 }

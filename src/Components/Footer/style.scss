@@ -1,0 +1,10 @@
+.footer_container {
+    background-color: #222424;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    & p {
+        color: #E9EAEA;
+    }
+}

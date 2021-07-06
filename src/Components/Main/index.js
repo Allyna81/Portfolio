@@ -1,28 +1,49 @@
 import React from 'react';
-import { Header, Button } from 'semantic-ui-react';
-import Iframe from 'react-iframe'
+import {  Button, Image, Icon, Label } from 'semantic-ui-react';
+import Screen from '../assets/GameTesting-Screen.png'
 import './style.scss'
 
 const Main = () => {
     return (
         <div className="Main_div">
-            <Header as='h1'>Mes Projets:</Header>
-            <Header as='h2'>Game Testing:
-                <p>Projet de fin de formation développé en REACT</p>
-            </Header>
+            <div className="header_container">
+                <h1>Mes Projets:</h1>
+            </div>
+            <div className="project_card">
+            <h2>Game Testing:</h2>
+                <p>Projet de fin de formation O'clock réalisé en :</p>
             <div className="Main_div_screen">
-            <Iframe url="http://game-testing.surge.sh/"
-                width="500px"
-                height="650px"
-                id="myId"
-                className="myProject"
-                display="initial"
-                position="relative"/>
+                
             </div>
             <div className="Main_div_description">
-                <p>Le projet à </p>
+                <div className="screen_container">
+                    <Image src={Screen} size="small" />
+                </div>
+                <div className="tech_container">
+                <div>
+                    <Label><Icon name="react" />React</Label>
+                </div>
+                <div>
+                    <Label><Icon name="js" />JavaScript</Label>
+                </div>
+                <div>
+                    <Label><Icon name="css3 alternate" />Semantic UI</Label>
+                </div>
+                </div>
             </div>
-            <a href="http://game-testing.surge.sh"><Button>Voir le site</Button></a>
+            <div className="button_container">
+                <a href="http://game-testing.surge.sh">
+                    <Button>
+                        <Icon name="internet explorer" />Voir le site
+                    </Button>
+                </a>
+                <a href='https://github.com/Allyna81'>
+                    <Button >
+                        <Icon name='github'/> Github 
+                    </Button>
+                </a>
+            </div>
+            </div>
         </div>
     )
 }

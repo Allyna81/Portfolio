@@ -1,13 +1,76 @@
 .Main_div {
-    background-color: #1B1C1D;
-    height: 100vw;
+    background-color: #222424;
     width: 100%;
+    height: 80%;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0 0 2em;
     &_screen img{
         width: 30rem;
     }
+    & p {
+        padding-left: 1em;
+    }
     
 }
-.Main_div_screen {
-    background-color: #1B1C1D;
+
+
+.project_card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 0.1em #E9EAEA;
+    background-color: #262626;
+    border-radius: 1em;
+    margin-right: 2em;
+    width: 25rem;
+    & h2 {
+        padding: 0.5em;
+        margin: 0;
+        color: rgb(100,220,220);
+        letter-spacing: 0.4em;
+    }
+
+    & p {
+        color: #E9EAEA;
+    }
+}
+
+.header_container {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: row;
+    padding-bottom: 1em;
+    & h1 {
+        color: #E9EAEA;
+    }
+}
+
+.screen_container {
+    padding-right: 0.5em;
+}
+
+.tech_container {
+    display: flex;
+    flex-direction: column;
+    & div {
+        padding-bottom: 0.5em;
+    }
+}
+
+.Main_div_description {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+
 }
