@@ -69,7 +69,7 @@ const Main = () => {
                 </div>
             </div>
             <div className="button_container">
-                <a href="remy.fournier.surge.sh">
+                <a href="/">
                     <Button>
                         <Icon name="google" />Voir le site
                     </Button>
