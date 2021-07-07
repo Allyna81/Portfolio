@@ -63,7 +63,7 @@ const Skills = () => {
         <List.Item>
             <Icon name="github" size="big" color="grey" />
             <List.Content>
-                <List.Header className="skill_name">Github</List.Header>
+                <List.Header className="skill_name">Git</List.Header>
             </List.Content>
         </List.Item>
     </List>

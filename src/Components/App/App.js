@@ -3,6 +3,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import Main from '../Main';
 import Contact from '../Contact';
+import About from '../About';
 import Skills from '../Skills';
 import { Switch, Route } from "react-router-dom";
 
@@ -20,6 +21,9 @@ const App = () => {
           </Route>
           <Route path="/contact" exact>
             <Contact />
+          </Route>
+          <Route path="/about" exact>
+            <About />
           </Route>
         </Switch>
       <Footer />

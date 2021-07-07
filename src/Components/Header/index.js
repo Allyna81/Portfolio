@@ -24,7 +24,7 @@ const Header = () => {
             name='Mes compétences'
           />
         </Link>
-        <Link to={"/aboutme"}>
+        <Link to={"/about"}>
           <Menu.Item
             name='About me'
           />
