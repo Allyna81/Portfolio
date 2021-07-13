@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
 import { Link } from "react-router-dom";
+import Typical from 'react-typical';
 import './title.scss'
 import './style.scss'
 
@@ -10,7 +11,12 @@ const Header = () => {
         <div id="app">
 	        <div id="wrapper">
 		        <h1 className="glitch" data-text="Rémy FOURNIER">Rémy FOURNIER</h1>
-		        <span className="sub">Développeur web Frontend REACT</span>
+            <Typical 
+              steps={['Développeur web', 1500, 'Développeur web Front-End', 2500, 'Développeur web REACT', 2500]}
+              loop={Infinity}
+              wrapper="p"
+              className="sub"
+            />
 	        </div>
         </div>
         <Menu inverted className="menu">

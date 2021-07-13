@@ -34,6 +34,8 @@ h1 {
 	color: rgb(100,220,220);
 	letter-spacing: 1em;
 	overflow-wrap: break-word;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 // Here's the meat and potatoes.
@@ -117,4 +119,22 @@ skew to change the 'thickness' of the glitch.*/
       transform: skew((random(10) - 5) + deg);
     }
   }
+}
+
+@media (max-width: 768px) {
+	.sub {
+		font-size: 0.7em;
+	}
+	.glitch {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 375px) {
+	.glitch {
+		font-size: 1.5em;
+	}
+	.sub {
+		font-size: 0.5em;
+	}
 }

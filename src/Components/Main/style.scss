@@ -86,3 +86,22 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+@media (max-width: 375px) {
+    .card_container{
+        width: 20em;
+    }
+    .project_card {
+        margin-right: 0;
+    }
+    .item{
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .ui.inverted.menu.menu {
+        width: 320px;
+    }
+}
