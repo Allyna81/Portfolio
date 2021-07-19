@@ -98,10 +98,23 @@
         padding: 0;
     }
 
+    .Main_div {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width: 320px) {
     .ui.inverted.menu.menu {
         width: 320px;
+    }
+
+    .ui.inverted.menu.menu a {
+        padding: 0;
+    }
+
+    .Main_div {
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 }
